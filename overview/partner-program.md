@@ -2,7 +2,7 @@
 description: Details on the ShareMint partner program
 ---
 
-# 🧑🤝🧑 Partner Program
+# Partner Program
 
 ShareMint partners are a curated list of web3 projects, communities and content creators.  
 
@@ -16,6 +16,7 @@ The partner will earn the affiliate rewards set by the campaign owners for every
 * Charity.
 
 **Example scenario**
+
 ”Community” is a a big community of gamers, they are listed as partners.
 
 ”Game” is a new web3 game, launching a web3 referral program on ShareMint in order give their marketing a boost. Their mint price is 0.2 ETH and they set up the affiliate rewards to 10%.
@@ -35,4 +36,5 @@ For partners - Receive invitations to partner with top upcoming projects directl
 Soon, in addition to revenue sharing, more partnership types will be available for partners.
 
 You can learn more about the ShareMint partners program [here](https://sharemint.xyz/partners).
+
 Apply to become a partner [here](https://sharemint.xyz/partner/apply).
