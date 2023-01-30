@@ -16,6 +16,7 @@
 * [📝 Integrating ShareMint into your Website](fundamentals/integrating-sharemint-into-your-website.md)
 * [🎪 Affiliate Token Gating](fundamentals/affiliate-token-gating.md)
 * [🧑 Inviting other Admins](fundamentals/inviting-other-admins.md)
+* [🚅 Bulk Upload Users](fundamentals/bulk-upload-users.md)
 * [💵 Support for fiat payments](fundamentals/support-for-fiat-payments.md)
 
 ## Use Cases
