@@ -8,7 +8,7 @@ ShareMint partners are a curated list of web3 projects, communities and content 
 
 **How it works**
 
-When an affiliate or referral campaign is launched on ShareMint, the owners are able to see the list of partners and invite those they would like to partner with to join as affiliates. When a partner is chosen, they will receive an email informing them about the partnership details. The partner can approve the invitation or reject it (either by clicking reject or ignoring it). When the invitation is approved, the partner becomes an affiliate. They get a unique referral url they can share it with their community or followers. 
+When an affiliate or referral campaign is launched on ShareMint, the owners are able to see the list of partners and invite those they would like to partner with to join as affiliates. When a partner is chosen, they will receive an email informing them about the partnership details. The partner can approve the invitation or reject it (either by clicking reject or ignoring it). When the invitation is approved, the partner becomes an affiliate. They get a unique referral url they can share with their community or followers. 
 
 The partner will earn the affiliate rewards set by the campaign owners for every purchase/mint that comes from their community. The revenue generated from these purchases can go to:
 * The partner.
@@ -29,6 +29,7 @@ The partner will earn the affiliate rewards set by the campaign owners for every
 * After the mint ends, Game pays all affiliates, generating 10 ETH * 10% = 1 ETH for Community.
 
 **The Benefits**
+
 For projects launching a referral program - Partner with top names in the space and increase your reach by 100x.
 
 For partners - Receive invitations to partner with top upcoming projects directly to your email. Utilize revenue sharing partnerships to earn extra revenue.
