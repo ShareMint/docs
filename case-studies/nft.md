@@ -1,4 +1,4 @@
-# 💱 NFT mints
+# 🖌️ NFT mints
 
 NFT collections that have launched a referral program on ShareMint achieved amazing results. One example is a project that was able to generate over 150 ETH from affiliate sales only. 
 

@@ -1,4 +1,4 @@
-# 💱 For DeFi protcols
+# 📈 For DeFi Protcols
 
 If you run a DeFi protcol you can incrase the protocol volume by launching a web3 referral program on ShareMint. Lido were able to increase staked ETH on the platform by over $2b using their referral program.
 
