@@ -30,5 +30,5 @@
 
 ## Case Studies
 
-* [🎨 🖌️ NFT Mints](case-studies/nft.md)
+* [🎨 NFT Mints](case-studies/nft.md)
 * [💱 DeFi Protocols](case-studies/defi.md)
