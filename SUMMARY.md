@@ -18,6 +18,7 @@
 * [🧑 Inviting other Admins](fundamentals/inviting-other-admins.md)
 * [🚅 Bulk Upload Users](fundamentals/bulk-upload-users.md)
 * [💵 Support for fiat payments](fundamentals/support-for-fiat-payments.md)
+* [🗼 Tiered programs](fundamentals/tiered-programs.md)
 
 ## Use Cases
 
