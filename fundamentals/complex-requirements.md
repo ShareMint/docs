@@ -45,15 +45,15 @@ One of
 Project slug
 {% endswagger-parameter %}
 
-{% swagger-parameter in="header" name="Content-Type" type="" required="true" %}
+{% swagger-parameter in="header" name="Content-Type" type="String" required="true" %}
 application/json
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="apiSecret" required="true" %}
+{% swagger-parameter in="body" name="apiSecret" required="true" type="String" %}
 Find this on the admin tab of your project
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="name" required="true" %}
+{% swagger-parameter in="body" name="name" required="true" type="String" %}
 Event name that should match an event name used for requirements on the project Settings page.
 {% endswagger-parameter %}
 
