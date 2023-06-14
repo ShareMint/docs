@@ -10,7 +10,7 @@ For example, you may want to monitor a smart contract event like staking or trad
 
 Complex requirements can also be API event-driven. That means you can track events in other systems and use those as part of your referral criteria.
 
-<figure><img src="../.gitbook/assets/CleanShot 2023-06-15 at 00.20.12.png" alt=""><figcaption><p>Smart contract events</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2023-06-15 at 00.23.51.png" alt=""><figcaption><p>Smart contract requirements</p></figcaption></figure>
 
 ### Setting Eligibility Thresholds
 
@@ -20,7 +20,7 @@ Not only can you monitor a vast range of events, but you can also set thresholds
 
 The Complex Requirements feature also enables the combination of multiple events to form a sequence or series of tasks. For instance, you could require a user to unlock five treasure chests, level up three times, and stake 1 ETH. Only when all of these tasks are completed does the referee meet the complex requirement.
 
-<figure><img src="../.gitbook/assets/CleanShot 2023-06-15 at 00.21.52.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2023-06-15 at 00.21.52.png" alt=""><figcaption><p>Custom API event requirements</p></figcaption></figure>
 
 ### API
 
