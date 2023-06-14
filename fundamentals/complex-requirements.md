@@ -28,7 +28,7 @@ The API endpoints below are used to save custom events for complex requirements.
 
 Smart contract events do not need to be sent this way. To track these you can set the details on the project Settings page.
 
-{% swagger method="post" path="/api/external/save-event" baseUrl="https://sharemint.xyz" summary="This endpoint is used to save an event within our system." %}
+{% swagger method="post" path="/api/external/save-event" baseUrl="https://sharemint.xyz" summary="To save custom events." %}
 {% swagger-description %}
 One of 
 
