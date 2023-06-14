@@ -21,6 +21,10 @@ To set up a tiered rewards program, follow these steps:
 3. **Add a Tier by clicking "Add Reward"**: set the reward to the value you want. eg 10 USDC.
 4. **Click "Advanced referee requirements" and set referrals required to unlock**: you can set a different number of referrals and conditions to unlock each tier.
 
+<figure><img src="../.gitbook/assets/CleanShot 2023-06-14 at 12.33.42@2x.png" alt=""><figcaption><p>Tiered Rewards</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/CleanShot 2023-06-14 at 12.47.02@2x.png" alt=""><figcaption><p>Add a reward tier</p></figcaption></figure>
+
 An affiliate will unlock all earn the rewards in each tier. Tiers are not mutually exclusive. If you have a reward for inviting 3 people, and a reward for inviting 10 people, if the affiliate invites 10 people, they will have unlocked both rewards.
 
 ### Communicating Tiered Rewards to Users
