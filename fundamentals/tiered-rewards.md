@@ -23,7 +23,7 @@ To set up a tiered rewards program, follow these steps:
 
 <figure><img src="../.gitbook/assets/CleanShot 2023-06-14 at 12.33.42@2x.png" alt=""><figcaption><p>Tiered Rewards</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/CleanShot 2023-06-14 at 12.47.02@2x.png" alt=""><figcaption><p>Add a reward tier</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2023-06-14 at 12.50.38@2x (1).png" alt=""><figcaption><p>Add a reward tier</p></figcaption></figure>
 
 An affiliate will unlock all earn the rewards in each tier. Tiers are not mutually exclusive. If you have a reward for inviting 3 people, and a reward for inviting 10 people, if the affiliate invites 10 people, they will have unlocked both rewards.
 
