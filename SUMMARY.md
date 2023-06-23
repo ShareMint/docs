@@ -19,7 +19,7 @@
 * [🚅 Bulk Upload Users](fundamentals/bulk-upload-users.md)
 * [💵 Support for fiat payments](fundamentals/support-for-fiat-payments.md)
 * [🗼 Tiered Rewards](fundamentals/tiered-rewards.md)
-* [🎰 Complex Requirements](fundamentals/complex-requirements.md)
+* [🎰 Referee Requirements](fundamentals/referee-requirements.md)
 
 ## Use Cases
 

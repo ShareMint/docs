@@ -1,14 +1,14 @@
-# 🎰 Complex Requirements
+# 🎰 Referee Requirements
 
-The power of our referral platform isn't just in the simple ability to invite others to join your project. It extends to its advanced capabilities, allowing you to track and reward based on various intricate criteria. Our Complex Requirements feature lets you do just that, providing you with the ability to define and monitor sophisticated event sequences.
+The power of our referral platform isn't just in the simple ability to invite others to join your project. It extends to its advanced capabilities, allowing you to track and reward based on various intricate criteria. Our Advanced Referee Requirements feature lets you do just that, providing you with the ability to define and monitor sophisticated event sequences.
 
-### What are Complex Requirements?
+### What are Advanced Referee Requirements?
 
-While simple requirements might only involve the act of inviting a friend to your project and them making a minimum purchase, complex requirements are far more diverse and flexible.
+While simple requirements might only involve the act of inviting a friend to your project and them making a minimum purchase, advanced requirements are far more diverse and flexible.
 
-For example, you may want to monitor a smart contract event like staking or trading. But rather than considering the full volume of the trade, you're only interested in a portion of the revenue that the protocol earns. Complex requirements can be set up to capture these more nuanced activities.
+For example, you may want to monitor a smart contract event like staking or trading. But rather than considering the full volume of the trade, you're only interested in a portion of the revenue that the protocol earns. Advanced referee requirements can be set up to capture these more nuanced activities.
 
-Complex requirements can also be API event-driven. That means you can track events in other systems and use those as part of your referral criteria.
+Advanced referee requirements can also be API event-driven. That means you can track events in other systems and use those as part of your referral criteria.
 
 <figure><img src="../.gitbook/assets/CleanShot 2023-06-15 at 00.23.51.png" alt=""><figcaption><p>Smart contract requirements</p></figcaption></figure>
 
@@ -18,13 +18,13 @@ Not only can you monitor a vast range of events, but you can also set thresholds
 
 ### Combining Multiple Events
 
-The Complex Requirements feature also enables the combination of multiple events to form a sequence or series of tasks. For instance, you could require a user to unlock five treasure chests, level up three times, and stake 1 ETH. Only when all of these tasks are completed does the referee meet the complex requirement.
+The Advanced Requirements feature also enables the combination of multiple events to form a sequence or series of tasks. For instance, you could require a user to unlock five treasure chests, level up three times, and stake 1 ETH. Only when all of these tasks are completed does the referee meet the requirement.
 
 <figure><img src="../.gitbook/assets/CleanShot 2023-06-15 at 00.21.52.png" alt=""><figcaption><p>Custom API event requirements</p></figcaption></figure>
 
 ### API
 
-The API endpoints below are used to save custom events for complex requirements. An example of an event might be "staked", "level-up", "unlocked-chest", "signed-up". You set the events on the project Settings page.
+The API endpoints below are used to save custom events for advanced requirements. An example of an event might be "staked", "level-up", "unlocked-chest", "signed-up". You set the events on the project Settings page.
 
 Smart contract events do not need to be sent this way. To track these you can set the details on the project Settings page.
 
