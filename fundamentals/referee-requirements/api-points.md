@@ -4,7 +4,7 @@ description: >-
   each referee has received.
 ---
 
-# Points API
+# API Points
 
 You can send points for each user to ShareMint using our API.
 
@@ -74,14 +74,6 @@ The email of the user to store the points for.
 
 {% swagger-parameter in="body" name="projectUserId" type="String" %}
 The ShareMint id of the user  to store the points for.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="referredByCode" type="String" %}
-The referral code of the referrer that invited the user. This will usually be blank.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="referredByAddress" type="String" %}
-The address of the referrer that invited the user. This will usually be blank.
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}
