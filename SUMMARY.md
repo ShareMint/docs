@@ -19,7 +19,10 @@
 * [🚅 Bulk Upload Users](fundamentals/bulk-upload-users.md)
 * [💵 Support for fiat payments](fundamentals/support-for-fiat-payments.md)
 * [🗼 Tiered Rewards](fundamentals/tiered-rewards.md)
-* [🎰 Referee Requirements](fundamentals/referee-requirements.md)
+* [🎰 Referee Requirements](fundamentals/referee-requirements/README.md)
+  * [Smart Contract Events](fundamentals/referee-requirements/smart-contract-events.md)
+  * [API Events](fundamentals/referee-requirements/api-events.md)
+  * [Points API](fundamentals/referee-requirements/points-api.md)
 
 ## Use Cases
 
