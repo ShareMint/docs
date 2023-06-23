@@ -22,7 +22,7 @@
 * [🎰 Referee Requirements](fundamentals/referee-requirements/README.md)
   * [Smart Contract Events](fundamentals/referee-requirements/smart-contract-events.md)
   * [API Events](fundamentals/referee-requirements/api-events.md)
-  * [Points API](fundamentals/referee-requirements/points-api.md)
+  * [API Points](fundamentals/referee-requirements/api-points.md)
 
 ## Use Cases
 
