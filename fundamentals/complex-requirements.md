@@ -77,11 +77,11 @@ The email of the user that performed the event.
 The ShareMint id of the user that performed the event.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="invitedById" type="String" %}
+{% swagger-parameter in="body" name="referredByCode" type="String" %}
 The referral code of the referrer that invited the user. This will usually be blank.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="invitedByAddress" type="String" %}
+{% swagger-parameter in="body" name="referredByAddress" type="String" %}
 The address of the referrer that invited the user. This will usually be blank.
 {% endswagger-parameter %}
 
