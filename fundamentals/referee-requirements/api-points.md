@@ -56,12 +56,12 @@ application/json
 Find this on the admin tab of your project
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="key" required="true" type="String" %}
-The key to store the points under.
-{% endswagger-parameter %}
+{% swagger-parameter in="body" name="keyPoints" required="true" type="String" %}
+Key value pairs of points. Example: 
 
-{% swagger-parameter in="body" name="points" type="Number" %}
-The number of points the user has total. This will override their previous points score.
+`{"breeds": 12, "quests": 44}`
+
+. The value is the number of points the user has amassed. This will override previous user scores. Keys not supplied are left unaffected.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="address" type="String" %}
