@@ -4,6 +4,10 @@
 
 ShareMint makes it easy for you to launch an affiliate or referral marketing program for your web3 project. Reward your most loyal community members and promoters for the value they generate.
 
+{% embed url="https://www.loom.com/share/c127065f895d4fde8ff4cffa1e2169b6" %}
+ShareMint demo
+{% endembed %}
+
 ## Overview
 
 75% of brands use affiliate or referral marketing to increase sales.
