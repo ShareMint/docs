@@ -10,23 +10,17 @@ ShareMint demo
 
 ## Overview
 
-75% of brands use affiliate or referral marketing to increase sales.
+ShareMint is a web3 affiliate and referral marketing that covers all your needs when it comes to quickly setting up your own referral program. We also help you connect with a network of top partners including web3 communities, influencers, newsletters and publishers.
 
-Referral marketing is the most-effective form of marketing. People are four times more likely to buy when referred by a friend.
+Whether you're a DeFi protocol, web3 game, NFT mint, or web3 SaaS ShareMint will help you launch your referral program in minutes.
 
-A strong referral and affiliate program is key to incentivising others to share your project. 83% of consumers are willing to refer after a positive experience—yet only 29% actually do.
+We're here to help you grow and maximise the power of your community and external partners.
 
-Each marketing channel you use becomes that much more effective. Each new community member becomes a potential marketer for your project. By not offering a referral program you are leaving money on the table.
+A strong referral and affiliate program is key to incentivising people to share your project. But web2 affiliate platforms don't cater to web3 needs. Web2 platforms don't understand wallet addresses, on-chain activity, or how to pay out affiliates in crypto. This is where ShareMint comes in to help.
 
-An affiliate program incentivises media publishers to share your projects. Whether it's a blog author, YouTuber, Twitter influencer, or news websites. By offering a referral program you make it easy for them to cover your project. Amazon Associates is the world's largest affiliate program with over 900,000 active affiliates and the web is scattered with links to Amazon because of it.
-
-Affiliate marketing is a cost-effecitve low-risk way to market your product. Affiliates are rewarded for the value they provide. It's a win-win for both parties. The affiliate drives revenue for the project, and by doing so, generates revenue for itself.
-
-Traditional affiliate marketing platforms are not optimized for web3. They don't track crypto purchases or provide on-chain analytics to optimise your marketing efforts. ShareMint provides a web3 native affiliate marketing platform designed for web3 businesses.
+We offer a vast array of features with deep levels of customisations to help you launch your referral program. ShareMint supports Ethereum, Polygon, Arbitrum, Optimism, Binance Smart Chain, Solana, and every EVM chain.
 
 <figure><img src=".gitbook/assets/CleanShot 2022-11-22 at 21.20.16.png" alt=""><figcaption></figcaption></figure>
-
-To learn more about ShareMint:
 
 ## Quick links
 
