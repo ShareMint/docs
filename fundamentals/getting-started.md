@@ -1,4 +1,14 @@
+---
+description: Set up your referral program in minutes
+---
+
 # 🛠 Getting Started
+
+Watch this video or follow the links below to get started:
+
+{% embed url="https://www.loom.com/share/55e5bc9aaeea49b19800693d6492323f" %}
+Creating a project on ShareMint
+{% endembed %}
 
 <details>
 
