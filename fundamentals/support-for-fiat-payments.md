@@ -1,4 +1,4 @@
-# 💵 Support for fiat payments
+# 💸 Support for fiat payments
 
 ShareMint supports for fiat payments via our API.
 

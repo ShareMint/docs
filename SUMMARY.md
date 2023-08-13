@@ -19,7 +19,7 @@
 * [🚅 Bulk Upload Users](fundamentals/bulk-upload-users.md)
 * [📖 Export as CSV](fundamentals/export-as-csv.md)
 * [💵 Bulk Payouts](fundamentals/bulk-payouts.md)
-* [💵 Support for fiat payments](fundamentals/support-for-fiat-payments.md)
+* [💸 Support for fiat payments](fundamentals/support-for-fiat-payments.md)
 * [🗼 Tiered Rewards](fundamentals/tiered-rewards.md)
 * [🎰 Referee Requirements](fundamentals/referee-requirements/README.md)
   * [Smart Contract Events](fundamentals/referee-requirements/smart-contract-events.md)
