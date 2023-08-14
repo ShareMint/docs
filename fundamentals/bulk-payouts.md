@@ -23,3 +23,7 @@ If you prefer to pay out affiliates automatically, you can add code to your smar
 The advantage of using a single click payout system that allows you to pay when you choose is that you can first see everything is in order before you make the payout. You don't have to make any smart contract changes to support payouts.
 
 You can use both systems together and we're happy to assist you make changes to your smart contract for payouts as necessary.
+
+#### Manually mark payouts
+
+We offer the ability to manually mark a payout as processed so if you decide to pay them via a different method you can still update the accounting on the ShareMint platform.
