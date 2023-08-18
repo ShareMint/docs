@@ -25,6 +25,7 @@
   * [Smart Contract Events](fundamentals/referee-requirements/smart-contract-events.md)
   * [API Events](fundamentals/referee-requirements/api-events.md)
   * [API Points](fundamentals/referee-requirements/api-points.md)
+* [🧪 Checking your program before launch](fundamentals/checking-your-program-before-launch.md)
 
 ## Use Cases
 
