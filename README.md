@@ -18,7 +18,7 @@ We're here to help you grow and maximise the power of your community and externa
 
 A strong referral and affiliate program is key to incentivising people to share your project. But web2 affiliate platforms don't cater to web3 needs. Web2 platforms don't understand wallet addresses, on-chain activity, or how to pay out affiliates in crypto. This is where ShareMint comes in to help.
 
-We offer a vast array of features with deep levels of customisations to help you launch your referral program. ShareMint supports Ethereum, Polygon, Arbitrum, Optimism, Binance Smart Chain, Solana, and every EVM chain.
+We offer a vast array of features with deep levels of customisations to help you launch your referral program. ShareMint supports Ethereum, Polygon, Binance Smart Chain, Arbitrum, Optimism, Base, Solana and every EVM chain.
 
 <figure><img src=".gitbook/assets/CleanShot 2022-11-22 at 21.20.16.png" alt=""><figcaption></figcaption></figure>
 
