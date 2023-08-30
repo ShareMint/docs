@@ -33,7 +33,7 @@
 * [🧺 For NFT Marketplaces](use-cases/for-nft-marketplaces.md)
 * [🎮 For Gaming](use-cases/for-gaming.md)
 * [💱 For DeFi Protocols](use-cases/for-defi-protocols.md)
-* [💱 For DEXs](use-cases/for-dexs.md)
+* [💸 For DEXs](use-cases/for-dexs.md)
 * [🗞 For Newsletters](use-cases/for-newsletters.md)
 
 ## Case Studies
