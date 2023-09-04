@@ -28,7 +28,7 @@ Your secret API key from the project admin page
 
 {% swagger method="post" path="/save-event" baseUrl="https://sharemint.xyz/api/external" summary="Save an event" %}
 {% swagger-description %}
-
+One of address, email, or projectUserId is required.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" required="true" name="slug" type="String" %}
@@ -48,6 +48,26 @@ Value of the event
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="address" type="String" %}
-User address
+User's address
 {% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="email" type="String" %}
+User's email
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="projectUserId" type="String" %}
+User's id on ShareMint for this project
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="referredByCode" type="String" %}
+The invite code of the referrer that invited the user
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="referredByAddress" type="String" %}
+The address of the referrer that invited the user
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Returns the created event" %}
+
+{% endswagger-response %}
 {% endswagger %}
