@@ -14,6 +14,7 @@
 * [⚡ Affiliate Sign Up Page](fundamentals/affiliate-sign-up-page.md)
 * [🏌 Referee Sign Up Page](fundamentals/referee-sign-up-page.md)
 * [📝 Integrating ShareMint into your Website](fundamentals/integrating-sharemint-into-your-website.md)
+* [🎍 API](fundamentals/api.md)
 * [🎪 Affiliate Token Gating](fundamentals/affiliate-token-gating.md)
 * [🧑 Inviting other Admins](fundamentals/inviting-other-admins.md)
 * [🚅 Bulk Upload Users](fundamentals/bulk-upload-users.md)
