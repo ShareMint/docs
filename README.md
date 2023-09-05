@@ -20,6 +20,9 @@ A strong referral and affiliate program is key to incentivising people to share 
 
 We offer a vast array of features with deep levels of customisations to help you launch your referral program. ShareMint supports Ethereum, Polygon, Binance Smart Chain, Arbitrum, Optimism, Base, Solana and every EVM chain.
 
+[Launch a web3 referral program on Ethereum](https://blog.sharemint.xyz/launch-web3-referral-program-on-ethereum)
+
+
 <figure><img src=".gitbook/assets/CleanShot 2022-11-22 at 21.20.16.png" alt=""><figcaption></figcaption></figure>
 
 ## Quick links
