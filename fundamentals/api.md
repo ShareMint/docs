@@ -68,8 +68,9 @@ Your secret API key from the project admin page
 
 
 
-{% swagger method="post" path="/get-or-create-invite-code" baseUrl="https://sharemint.xyz/api/external" summary="Get an affiliate's invite code. Create it if it doesn't exist" %}
+{% swagger method="post" path="/get-or-create-invite-code" baseUrl="https://sharemint.xyz/api/external" summary="Get invite code" %}
 {% swagger-description %}
+Get an affiliate's invite code. Create it if it doesn't exist.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="address" required=true type="String" %}
