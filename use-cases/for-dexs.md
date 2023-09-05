@@ -1,4 +1,4 @@
-# 💱 For DEXs
+# 💸 For DEXs
 
 If you run a decentralised exchange you can use ShareMint to share exchange revenue with affiliates. CoW Swap was able to boost volume by over $400m using their affiliate program.
 
