@@ -18,13 +18,73 @@ User address or email
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="chain" required="true" type="String" %}
-Blockchain
+Blockchain name
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="apiSecret" type="String" %}
 Your secret API key from the project admin page
 {% endswagger-parameter %}
 {% endswagger %}
+
+{% swagger method="get" path="/address-from-invite-code" baseUrl="https://sharemint.xyz/api/external" summary="Get user address from invite code" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="query" name="code" required="true" type="String" %}
+User's referral code
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="slug" required="true" type="String" %}
+Project slug
+{% endswagger-parameter %}
+{% endswagger %}
+
+{% swagger method="get" path="/affiliate" baseUrl="https://sharemint.xyz/api/external" summary="Get affiliate details" %}
+{% swagger-description %}
+One of address, projectUserId, or referralCode is required.
+{% endswagger-description %}
+
+{% swagger-parameter in="query" name="address" type="String" %}
+Affiliate's wallet address
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="projectUserId" type="String" %}
+Affiliate's id in project
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="referralCode" type="String" %}
+Affiliate's referral code
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="slug" required="true" type="String" %}
+Project slug
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="apiSecret" type="String" %}
+Your secret API key from the project admin page
+{% endswagger-parameter %}
+{% endswagger %}
+
+
+
+{% swagger method="post" path="/get-or-create-invite-code" baseUrl="https://sharemint.xyz/api/external" summary="Get an affiliate's invite code. Create it if it doesn't exist" %}
+{% swagger-description %}
+{% endswagger-description %}
+
+{% swagger-parameter in="body" name="address" required=true type="String" %}
+User's address
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="chain" required=true type="String" %}
+Blockchain name
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" required="true" name="slug" type="String" %}
+Project slug
+{% endswagger-parameter %}
+{% endswagger %}
+
 
 {% swagger method="post" path="/save-event" baseUrl="https://sharemint.xyz/api/external" summary="Save an event" %}
 {% swagger-description %}
