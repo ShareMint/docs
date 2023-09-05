@@ -145,34 +145,47 @@ The address of the referrer that invited the user
 {% endswagger %}
 
 
-{% swagger method="post" path="/save-transaction" baseUrl="https://sharemint.xyz/api/external" summary="Save a transaction" %}
+{% swagger method="post" path="/save-payment" baseUrl="https://sharemint.xyz/api/external" summary="Save payment" %}
 {% swagger-description %}
+One of address or email is required.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" required="true" name="slug" type="String" %}
 Project slug
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="apiSecret" required="true" type="String" %}
+Your secret API key from the project admin page
+{% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="invitedById" required="true" type="String" %}
 Referrer's id
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="transactionHash" required="true" type="String" %}
-Transaction hash
+{% swagger-parameter in="body" name="value" required="true" type="String" %}
+Payment value. Must be bigger than 0
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="minter" type="String" %}
-"payer" or "receiver"
+{% swagger-parameter in="body" name="invitedByAddress" type="String" %}
+Referrer's address
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="chain" type="String" %}
-Blockchain name
+{% swagger-parameter in="body" name="quantity" type="String" %}
+Amount of purchases
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="chain" type="String" %}
+Blockchain name. Can be  "FIAT", "ETHEREUM", "POLYGON", "ARBITRUM", "OPTIMISM", "SOLANA", "GOERLI", "SEPOLIA" 
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="address" type="String" %}
+User's address
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="email" type="String" %}
 User's email
 {% endswagger-parameter %}
 
-{% swagger-response status="200: OK" description="Returns the user's id" %}
+{% swagger-response status="200: OK" description="Returns the id of the user" %}
 {% endswagger-response %}
 {% endswagger %}
