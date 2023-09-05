@@ -24,6 +24,9 @@ Blockchain name
 {% swagger-parameter in="query" name="apiSecret" type="String" %}
 Your secret API key from the project admin page
 {% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Returns the user's details" %}
+{% endswagger-response %}
 {% endswagger %}
 
 {% swagger method="get" path="/address-from-invite-code" baseUrl="https://sharemint.xyz/api/external" summary="Get user address from invite code" %}
@@ -38,6 +41,9 @@ User's referral code
 {% swagger-parameter in="query" name="slug" required="true" type="String" %}
 Project slug
 {% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Returns the user's address or an empty string if an invite code cannot be found" %}
+{% endswagger-response %}
 {% endswagger %}
 
 {% swagger method="get" path="/affiliate" baseUrl="https://sharemint.xyz/api/external" summary="Get affiliate details" %}
@@ -64,6 +70,9 @@ Project slug
 {% swagger-parameter in="query" name="apiSecret" type="String" %}
 Your secret API key from the project admin page
 {% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Returns the affiliate details" %}
+{% endswagger-response %}
 {% endswagger %}
 
 
@@ -84,6 +93,9 @@ Blockchain name
 {% swagger-parameter in="body" required="true" name="slug" type="String" %}
 Project slug
 {% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Returns the affiliate's invite code" %}
+{% endswagger-response %}
 {% endswagger %}
 
 
@@ -129,6 +141,38 @@ The address of the referrer that invited the user
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Returns the created event" %}
+{% endswagger-response %}
+{% endswagger %}
 
+
+{% swagger method="post" path="/save-transaction" baseUrl="https://sharemint.xyz/api/external" summary="Save a transaction" %}
+{% swagger-description %}
+{% endswagger-description %}
+
+{% swagger-parameter in="body" required="true" name="slug" type="String" %}
+Project slug
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="invitedById" required="true" type="String" %}
+Referrer's id
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="transactionHash" required="true" type="String" %}
+Transaction hash
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="minter" type="String" %}
+"payer" or "receiver"
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="chain" type="String" %}
+Blockchain name
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="email" type="String" %}
+User's email
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Returns the user's id" %}
 {% endswagger-response %}
 {% endswagger %}
