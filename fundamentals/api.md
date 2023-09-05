@@ -174,7 +174,7 @@ Referrer's address
 Amount of purchases
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="chain" type="String" %}
+{% swagger-parameter in="body" name="chain" type="String" %}
 Blockchain name. Can be  "FIAT", "ETHEREUM", "POLYGON", "ARBITRUM", "OPTIMISM", "SOLANA", "GOERLI", "SEPOLIA" 
 {% endswagger-parameter %}
 
