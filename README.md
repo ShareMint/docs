@@ -22,6 +22,8 @@ We offer a vast array of features with deep levels of customisations to help you
 
 [Launch a web3 referral program on Ethereum](https://blog.sharemint.xyz/launch-web3-referral-program-on-ethereum)
 
+[Launch a web3 affiliate program on Polygon](https://blog.sharemint.xyz/launch-web3-affiliate-program-on-polygon)
+
 
 <figure><img src=".gitbook/assets/CleanShot 2022-11-22 at 21.20.16.png" alt=""><figcaption></figcaption></figure>
 
