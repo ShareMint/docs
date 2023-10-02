@@ -148,7 +148,7 @@ The address of the referrer that invited the user
 
 {% swagger method="post" path="/save-transaction" baseUrl="https://sharemint.xyz/api/external" summary="Save a referral via a transaction hash" %}
 {% swagger-description %}
-
+This saves both the referral and the payment made in the transaction.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" required="true" name="slug" type="String" %}
