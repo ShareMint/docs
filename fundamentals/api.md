@@ -148,15 +148,11 @@ The address of the referrer that invited the user
 
 {% swagger method="post" path="/save-transaction" baseUrl="https://sharemint.xyz/api/external" summary="Save a referral via a transaction hash" %}
 {% swagger-description %}
-One of address, email, or projectUserId is required.
+
 {% endswagger-description %}
 
 {% swagger-parameter in="body" required="true" name="slug" type="String" %}
 Project slug
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="address" type="String" required="false" %}
-User's address
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="email" type="String" required="false" %}
