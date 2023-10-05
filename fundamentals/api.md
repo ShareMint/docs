@@ -100,6 +100,103 @@ Project slug
 {% endswagger-response %}
 {% endswagger %}
 
+{% swagger method="post" path="/save" baseUrl="https://sharemint.xyz/api/external" summary="Save a referral via referral id or wallet address" %}
+{% swagger-description %}
+One of address, email, or transactionHash is required.
+{% endswagger-description %}
+
+{% swagger-parameter in="body" required="true" name="slug" type="String" %}
+Project slug
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="invitedById" type="String" required="true" %}
+The invite code of the referrer that invited the user
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="invitedByAddress" type="String" %}
+The address of the referrer that invited the user
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="invitedByAddress" type="String" required="false" %}
+User's wallet address
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="email" type="String" required="false" %}
+User's email
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="transactionHash" type="String" required="false" %}
+Transaction hash
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="chain" type="String" required="false" %}
+Chain
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="minter" type="String" required="false" %}
+One of "payer" or "receiver"
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="apiSecret" type="String" %}
+Your secret API key from the project admin page
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="verified" type="Boolean" %}
+Is the user verified?
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Returns the information about the referral" %}
+
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="post" path="/save-transaction" baseUrl="https://sharemint.xyz/api/external" summary="Save a referral via a transaction hash" %}
+{% swagger-description %}
+This saves both the referral and the payment made in the transaction.
+{% endswagger-description %}
+
+{% swagger-parameter in="body" required="true" name="slug" type="String" %}
+Project slug
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="email" type="String" required="false" %}
+User's email
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="minter" type="String" required="true" %}
+One of "payer" or "receiver"
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="transactionHash" type="String" required="true" %}
+Transaction hash
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="chain" type="String" %}
+Chain
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="invitedById" type="String" required="true" %}
+The invite code of the referrer that invited the user
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="invitedByAddress" type="String" %}
+The address of the referrer that invited the user
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="apiSecret" type="String" %}
+Your secret API key from the project admin page
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="verified" type="Boolean" %}
+Is the user verified?
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Returns the information about the referral" %}
+
+{% endswagger-response %}
+{% endswagger %}
+
+
 {% swagger method="post" path="/save-event" baseUrl="https://sharemint.xyz/api/external" summary="Save an event" %}
 {% swagger-description %}
 One of address, email, or projectUserId is required.
@@ -142,44 +239,6 @@ The address of the referrer that invited the user
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Returns the created event" %}
-
-{% endswagger-response %}
-{% endswagger %}
-
-{% swagger method="post" path="/save-transaction" baseUrl="https://sharemint.xyz/api/external" summary="Save a referral via a transaction hash" %}
-{% swagger-description %}
-This saves both the referral and the payment made in the transaction.
-{% endswagger-description %}
-
-{% swagger-parameter in="body" required="true" name="slug" type="String" %}
-Project slug
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="email" type="String" required="false" %}
-User's email
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="minter" type="String" required="true" %}
-One of "payer" or "receiver"
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="transactionHash" type="String" required="true" %}
-Transaction hash
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="chain" type="String" %}
-Chain
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="invitedById" type="String" required="true" %}
-The invite code of the referrer that invited the user
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="invitedByAddress" type="String" %}
-The address of the referrer that invited the user
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Returns the information about the referral" %}
 
 {% endswagger-response %}
 {% endswagger %}
