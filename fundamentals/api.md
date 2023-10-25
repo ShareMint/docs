@@ -113,7 +113,7 @@ Project slug
 The invite code of the referrer that invited the user
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="invitedByAddress" type="String" %}
+{% swagger-parameter in="body" name="invitedByAddress" type="String" required="false" %}
 The address of the referrer that invited the user
 {% endswagger-parameter %}
 
@@ -137,12 +137,12 @@ Chain
 One of "payer" or "receiver"
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="apiSecret" type="String" %}
+{% swagger-parameter in="body" name="apiSecret" type="String" required="false" %}
 Your secret API key from the project admin page
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="verified" type="Boolean" %}
-Is the user verified?
+{% swagger-parameter in="body" name="verified" type="Boolean" required="false" %}
+If the referral is verified. Can only be set when providing an apiSecret
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Returns the information about the referral" %}
@@ -171,7 +171,7 @@ One of "payer" or "receiver"
 Transaction hash
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="chain" type="String" %}
+{% swagger-parameter in="body" name="chain" type="String" required="false" %}
 Chain
 {% endswagger-parameter %}
 
@@ -179,15 +179,15 @@ Chain
 The invite code of the referrer that invited the user
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="invitedByAddress" type="String" %}
+{% swagger-parameter in="body" name="invitedByAddress" type="String" required="false" %}
 The address of the referrer that invited the user
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="apiSecret" type="String" %}
+{% swagger-parameter in="body" name="apiSecret" type="String" required="false" %}
 Your secret API key from the project admin page
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="verified" type="Boolean" %}
+{% swagger-parameter in="body" name="verified" type="Boolean" required="false" %}
 Is the user verified?
 {% endswagger-parameter %}
 
@@ -195,7 +195,6 @@ Is the user verified?
 
 {% endswagger-response %}
 {% endswagger %}
-
 
 {% swagger method="post" path="/save-event" baseUrl="https://sharemint.xyz/api/external" summary="Save an event" %}
 {% swagger-description %}
