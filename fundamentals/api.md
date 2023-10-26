@@ -109,7 +109,7 @@ One of address, email, or transactionHash is required.
 Project slug
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="invitedById" type="String" required="true" %}
+{% swagger-parameter in="body" name="invitedById" type="String" required="false" %}
 The invite code of the referrer that invited the user
 {% endswagger-parameter %}
 
