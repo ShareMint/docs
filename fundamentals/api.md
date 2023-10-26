@@ -145,6 +145,10 @@ Your secret API key from the project admin page
 If the referral is verified. Can only be set when providing an apiSecret
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="disqualifiedAsReferee" type="Boolean" %}
+If the user is disqualified from being a referee. Can only be set when providing an apiSecret
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="Returns the information about the referral" %}
 
 {% endswagger-response %}
