@@ -117,7 +117,7 @@ The invite code of the referrer that invited the user
 The address of the referrer that invited the user
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="invitedByAddress" type="String" required="false" %}
+{% swagger-parameter in="body" name="address" type="String" required="false" %}
 User's wallet address
 {% endswagger-parameter %}
 
