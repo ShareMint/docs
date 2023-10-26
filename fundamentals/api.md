@@ -146,7 +146,7 @@ If the referral is verified. Can only be set when providing an apiSecret
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="disqualifiedAsReferee" type="Boolean" %}
-If the user is disqualified from being a referee. Can only be set when providing an apiSecret
+If the user is disqualified from being a referee. Can only be set when providing an apiSecret. This field has no impact if the user has already been referred by someone.
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Returns the information about the referral" %}
