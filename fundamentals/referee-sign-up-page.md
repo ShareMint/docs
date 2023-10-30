@@ -6,6 +6,7 @@ This link can point to three different page types:
 
 1. ShareMint page
 2. Direct website integration
+1. HeyMint page
 3. External program
 4. ShareMint reward page
 
@@ -22,6 +23,15 @@ Once a user has completed these steps they can be directed to a new url. For exa
 ### Direct website integration
 
 If you select this option you will need to integrate ShareMint into your website. The integration is two lines of code and should be easy for your developer to add. For more on integrating directly into your website, see the [Integrating ShareMint into your Website](integrating-sharemint-into-your-website.md) page.
+
+### HeyMint page
+You will be able to see this option only if you chosen "NFT" as your type of project.
+
+Affiliates will be able to direct users to an HeyMint page for allowlists.
+
+Make sure you add the URL of your HeyMint page after clicking on this option.
+
+On HeyMint, in the project settings you will need to add the slug of your ShareMint program under "ShareMint slug" for ShareMint to be able to track referrals.
 
 ### External program
 
