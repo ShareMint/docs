@@ -109,7 +109,7 @@ One of address, email, or transactionHash is required.
 Project slug
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="invitedById" type="String" required="true" %}
+{% swagger-parameter in="body" name="invitedById" type="String" required="false" %}
 The invite code of the referrer that invited the user
 {% endswagger-parameter %}
 
@@ -117,7 +117,7 @@ The invite code of the referrer that invited the user
 The address of the referrer that invited the user
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="invitedByAddress" type="String" required="false" %}
+{% swagger-parameter in="body" name="address" type="String" required="false" %}
 User's wallet address
 {% endswagger-parameter %}
 
@@ -143,6 +143,10 @@ Your secret API key from the project admin page
 
 {% swagger-parameter in="body" name="verified" type="Boolean" required="false" %}
 If the referral is verified. Can only be set when providing an apiSecret
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="disqualifiedAsReferee" type="Boolean" %}
+If the user is disqualified from being a referee. Can only be set when providing an apiSecret. This field has no impact if the user has already been referred by someone.
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Returns the information about the referral" %}
